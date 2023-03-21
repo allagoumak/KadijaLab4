@@ -19,7 +19,9 @@ namespace Lab4.Data
         {
             modelBuilder.Entity<Client>().ToTable("Client");
             modelBuilder.Entity<NewsBoard>().ToTable("NewsBoard");
-            modelBuilder.Entity<Subscription>().HasKey(c => new { c.ClientId, c.NewsBoardId });
+            //modelBuilder.Entity<Subscription>().ToTable("Subscription");
+            modelBuilder.Entity<Subscription>().ToTable("Subscription").HasKey(c => new { c.ClientId, c.NewsBoardId });
+            
 
         }
 

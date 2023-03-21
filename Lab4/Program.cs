@@ -2,8 +2,8 @@
 //using /*LabName*/.Data;
 using Lab4.Data;
 using Microsoft.EntityFrameworkCore;
-//using Microsoft.Extensions.Hosting;
-//using Microsoft.Extensions.DependencyInjection; //found on google trying to resolve host.Services.CreateScope() error on line 24 from step 6 of Configure your new Web Application
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.DependencyInjection; //found on google trying to resolve host.Services.CreateScope() error on line 24 from step 6 of Configure your new Web Application
 
 namespace Lab4
 {

@@ -5,7 +5,9 @@ namespace Lab4.Models
 {
     public class Client
     {
-        public string Id { get; set; }
+
+        
+        public int Id { get; set; }
 
         [Required]
         [StringLength(50, MinimumLength=1)]

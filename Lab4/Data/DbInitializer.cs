@@ -9,7 +9,7 @@ namespace Lab4.Data
             context.Database.EnsureCreated();
             if (context.Clients.Any())
             {
-                return;   // DB has been seeded
+               return;   // DB has been seeded
             }
 
             var clients = new Client[]

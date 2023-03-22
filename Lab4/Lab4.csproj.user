@@ -11,5 +11,6 @@
     <WebStackScaffolding_DbContextTypeFullName>Lab4.Data.NewsDbContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
+    <NameOfLastUsedPublishProfile>C:\Users\allag\source\repos\Lab4\Lab4\Properties\PublishProfiles\KadijaAllagoumaLab4-0 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
